@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:  hsl(0, 0%, 8%);
+    font-family:'Inter',sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+}
+img{
+    border-radius: 50%;
+    width: 90px;
+    margin-bottom: 1rem;
+}
+
+.container{
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    text-align: center;
+    max-width: 280px;
+    margin: 6rem auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2rem 0rem;
+    border-radius: 8px;
+    
+   
+}
+
+.detail h1{
+    margin-bottom: 0.15rem;
+    font-weight: 400;
+    font-size: 19px;
+    
+}
+
+.detail h2{
+    font-size: 11px;
+    font-weight: 200;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1rem;
+    
+}
+
+p{
+    font-weight: 100;
+    font-size: 10px;
+    margin-bottom: 0.75rem;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.social {
+    width: 80%;
+    
+}
+
+
+.social li {
+    
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 0.8rem;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
